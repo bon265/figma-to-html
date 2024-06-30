@@ -24,8 +24,7 @@ header{
     display: flex;
     justify-content: center;
     background-color: #FFFCF4;
-    
-    
+
 }
 .header{
     display: flex;
@@ -36,7 +35,7 @@ header{
    background-color:#FFFCF4;
    margin-left: 135px;
    margin-right: 135px;
-   position: sticky;
+
 }
 
 nav{
@@ -588,11 +587,154 @@ margin-top: 32px;
 .feature-body-2nd .block-feature-content {
     width: 48.7%;
 }
+                                                    /* BLOG and   */
+.blog-body{
+margin-top: 200px;
+background-color: #FFFCF4;
+                                                    
+                                                    }
+.blog-body .blog-contain{
+    width: 81%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 56px; }
+
+    .blog-body .blog-contain .title{
+        /* background-color: rebeccapurple;
+         */
+         color: #130606;
+
+text-align: center;
+font-family: Sen;
+font-size: 3.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.26
+}
+
+.blog-body .blog-contain p{
+    color: #696262;
+    margin-top: 16px;
+width: 448px;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+                                /*img-list  */
+
+.blog-body .img-list{
+    display: flex;
+    width: 81%;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 
+}
 
+.blog-body .dots{
+   margin-top: 38px;
+   display: flex;
+   gap: 6px;
+ justify-content: center;
+ padding-bottom: 140px;
+}
 
+.blog-body .dots .dot{
+    width: 6px;height: 6px;
+    background-color: #5F5B53;
+    border-radius: 999px;
+}
+
+.blog-body .dots .dot:hover{
+    background-color: var(--buttoncolor);
+    cursor: pointer;
+}
+
+                                            /*footer  */
+.footer-body{
+    background-color: #2E2100;
+    padding-top: 96px;
+    
+}
+.footer-body .main-contain{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 38px;
+    border-bottom: 1px solid  #59554B ;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer-body .item-list{
+width: 18.5%;
+display: flex;
+color: #BFBCB2;
+font-family: Poppins;
+font-size: 1.4rem;
+line-height: 1.85;
+
+}
+
+.footer-body .item-list li a{
+    text-decoration: none;
+    color: #BFBCB2;
+}
+
+.footer-body .item-list .title{
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.6rem;
+font-weight: 600;
+line-height: 1.75;
+padding-bottom: 14px;
+border-bottom: 1px solid  #59554B; 
+width: 130px;
+}
+
+.footer-body .item-list li:nth-child(2){
+    margin-top: 28px;
+}
+
+.footer-body .item-list p{
+    color: #BFBCB2;
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.85;
+
+}
+
+.footer-body .item-list .logo{
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.footer-body .below{
+    background-color:  #2E2100;
+    padding: 28px 0;
+    color: #807D74;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.85;
+}
 
 
 
